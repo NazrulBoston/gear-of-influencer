@@ -100,39 +100,99 @@ main {
 
 /* sponsors style */
 
-.sponsors{
-    
+.popular-title {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .item {
-list-style: none;
-padding-left: 65px;
-
+    list-style: none;
+    padding-left: 65px;
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    margin-bottom: 132px;
+    margin-top: 134px;
 }
 
 
-.sponsors-items{
-    margin-top:136px ;
+.sponsors-items {
+    margin-top: 136px;
     margin-right: 60px;
 
 }
 
+.container-camera {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+
+/* features container */
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 132px;
+    margin-bottom: 100px;
+}
+
+.features-title {
+    color: #0A0826;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 18px;
+}
+
+.features-para {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75rem;
+    margin-bottom: 16px;
+}
 
 
 
+/* footer section */
 
+.influencer-products {
+text-align: center;
+    justify-content: sp;
+    width: 1440px;
+    height: 239px;
+    background-color: black;
+    color: #FFF;
+    padding-top: 54px;
+}
 
+.social-container{
+    display: flex;
+ justify-content:center ;
+ list-style: none;
+ gap: 10px;
+}
+
+.social-containe >li{
+   
+}
 
 
 
 @media screen and (max-width: 576px) {
 
-.menu-container,
-.banner-container{
-    flex-direction: column;
-}
-.banner-container{
-    width:480px ;
-}
+    .menu-container,
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        width: 480px;
+    }
 
 }
